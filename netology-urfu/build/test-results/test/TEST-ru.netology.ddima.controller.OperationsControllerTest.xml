@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.netology.ddima.controller.OperationsControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-09T13:35:11" hostname="DESKTOP-L87IDJ8" time="0.09">
+  <properties/>
+  <testcase name="deleteOperation()" classname="ru.netology.ddima.controller.OperationsControllerTest" time="0.082"/>
+  <testcase name="getOperationsByUser()" classname="ru.netology.ddima.controller.OperationsControllerTest" time="0.004"/>
+  <testcase name="addOperation()" classname="ru.netology.ddima.controller.OperationsControllerTest" time="0.002"/>
+  <system-out><![CDATA[No operations
+No operations
+No operations
+No operations
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

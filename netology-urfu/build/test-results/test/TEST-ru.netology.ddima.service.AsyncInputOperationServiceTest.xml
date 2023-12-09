@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.netology.ddima.service.AsyncInputOperationServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-09T13:35:11" hostname="DESKTOP-L87IDJ8" time="0.227">
+  <properties/>
+  <testcase name="testEmptyQueueHandling()" classname="ru.netology.ddima.service.AsyncInputOperationServiceTest" time="0.112"/>
+  <testcase name="testAddAndProcessOperation()" classname="ru.netology.ddima.service.AsyncInputOperationServiceTest" time="0.109"/>
+  <testcase name="testQueueOverflow()" classname="ru.netology.ddima.service.AsyncInputOperationServiceTest" time="0.005"/>
+  <system-out><![CDATA[2023-12-09 18:35:11.384  INFO 13608 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.ddima.service.AsyncInputOperationServiceTest], using SpringBootContextLoader
+2023-12-09 18:35:11.384  INFO 13608 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [ru.netology.ddima.service.AsyncInputOperationServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-12-09 18:35:11.385  INFO 13608 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [ru.netology.ddima.service.AsyncInputOperationServiceTest]: AsyncInputOperationServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-09 18:35:11.391  INFO 13608 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration ru.netology.ddima.OperationHistoryApiApplication for test class ru.netology.ddima.service.AsyncInputOperationServiceTest
+2023-12-09 18:35:11.392  INFO 13608 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-12-09 18:35:11.393  INFO 13608 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@39f93225, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@24b3f778, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@164dea80, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4392362c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@338a4c61, org.springframework.test.context.support.DirtiesContextTestExecutionListener@839755f, org.springframework.test.context.event.EventPublishingTestExecutionListener@71d99732, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2328ec73, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@42a05533, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@17053b5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3cad24ae, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@58021c3c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@18cbc3c2]
+No operations
+No operations
+No operations
+No operations
+No operations
+No operations
+Operation added for processingOperation(id=1, sum=1000, currency=USD, merchant=Amazon)
+No operations
+No operations
+Processing operationOperation(id=1, sum=1000, currency=USD, merchant=Amazon)
+No operations
+No operations
+No operations
+Operation added for processingOperation(id=0, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=1, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=2, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=3, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=4, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=5, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=6, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=7, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=8, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=9, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=10, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=11, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=12, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=13, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=14, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=15, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=16, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=17, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=18, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=19, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=20, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=21, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=22, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=23, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=24, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=25, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=26, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=27, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=28, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=29, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=30, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=31, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=32, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=33, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=34, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=35, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=36, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=37, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=38, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=39, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=40, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=41, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=42, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=43, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=44, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=45, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=46, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=47, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=48, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=49, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=50, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=51, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=52, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=53, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=54, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=55, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=56, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=57, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=58, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=59, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=60, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=61, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=62, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=63, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=64, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=65, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=66, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=67, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=68, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=69, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=70, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=71, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=72, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=73, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=74, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=75, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=76, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=77, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=78, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=79, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=80, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=81, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=82, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=83, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=84, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=85, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=86, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=87, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=88, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=89, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=90, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=91, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=92, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=93, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=94, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=95, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=96, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=97, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=98, sum=100, currency=USD, merchant=Test)
+Operation added for processingOperation(id=99, sum=100, currency=USD, merchant=Test)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
